@@ -1,0 +1,87 @@
+*{
+  background: #eff4fd;
+}
+#dvContainer {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+th, td {
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tfoot {
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 60px;
+    padding: 5px;
+}
+
+span {
+    font-weight: bold;
+}
+.btn {
+  width: 14%;
+  height: 45px;
+  background: #2d5af0;
+  border: none;
+  outline: none;
+  border-radius: 6px;
+  font-size: 1em;
+  color: #fff;
+  font-weight: 500;
+  display: inline-block;
+  margin: 25px;
+}
+.input-box {
+  margin-bottom: 20px;
+}
+
+.input-box input {
+  width: 30%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f3f3f3;
+}
+
+.input-box label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 14px;
+  font-weight: bold;
+  color: #333;
+}
+
+.input-box input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+.input-box input::placeholder {
+  color: #999;
+}
+
+
+
+
