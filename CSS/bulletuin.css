@@ -51,6 +51,7 @@ span {
   font-weight: 500;
   display: inline-block;
   margin: 25px;
+  cursor: pointer;
 }
 .input-box {
   margin-bottom: 20px;
@@ -84,4 +85,8 @@ span {
 
 
 
-
+@media print {
+  .btn{
+    display: none;
+  }
+}
